@@ -40,7 +40,8 @@ The nested types are 77+t (e.g. 78 is boolean. 96 is time.)
 
 <!-- `char$data`CHAR$string
  -->
-Int, float, char and symbol literal **nulls** are respectively: `0N` `0n` `" "` and `` `. ``  
+Int, float, char and symbol literal **nulls** are respectively: `0N` `0n` `" "` and `` ` ``.
+
 The rest use type extensions, e.g. `0Nd`. No null for boolean or byte. 
 
 **Infinite** dates, times and datetimes are `0Wd` `0Wz` `0Wt` (no math).
